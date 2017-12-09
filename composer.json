@@ -1,14 +1,8 @@
 {
-	"name": "tuner88/laravel-redmine-api",
+	"name": "assmay/laravel-redmine-api",
 	"description": "Laravel wrapper for the Redmine API.",
 	"license": "MIT",
 	"keywords": ["laravel", "redmine", "api", "client", "wrapper"],
-	"authors": [
-		{
-			"name": "Anton Pauli",
-			"email": "anton.pauli@gmail.com"
-		}
-	],
 	"require": {
 		"php": ">=5.4.7",
 		"illuminate/contracts": "~5.0",
@@ -17,7 +11,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"TUNER88\\Redmine\\": "src/"
+			"assmay\\Redmine\\": "src/"
 		}
 	},
 	"minimum-stability": "stable",
