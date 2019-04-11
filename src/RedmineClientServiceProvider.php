@@ -44,10 +44,10 @@ class RedmineClientServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-        $app = $this->app;
+
         
         // create image
-        $app['redmine'] = $app->share(function ($app) {
+        $app['redmine'] = $this->app->singleton('redmine', function ($app) {
 	        
 	        $configs = $app['config']->get('redmine');
 	        
